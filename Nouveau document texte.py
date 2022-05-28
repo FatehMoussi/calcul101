@@ -1,4 +1,4 @@
-# calculatrice simple
+# calculatrice machi simple
 
 def add(x, y):
     return x + y
