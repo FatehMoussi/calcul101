@@ -1,4 +1,4 @@
-# calculatrice machi simple
+# calculatrice machi simple lol ratatatata
 
 def add(x, y):
     return x + y
@@ -38,3 +38,9 @@ while True:
 
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
+            next_calculation = input("une autre calculation? (oui/non): ")
+        if next_calculation == "non":
+          break
+
+    else:
+        print("Invalid")
